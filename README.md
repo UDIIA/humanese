@@ -48,6 +48,10 @@ In any Claude Code session, paste the alien text and say:
 
 Claude will also invoke it on its own when you paste telegraphic AI output and ask what it means.
 
+## Bonus: the TL;DR block rule
+
+`humanese` fixes dense text after the fact. [`TLDR.md`](TLDR.md) is the always-on companion: a copy-paste `CLAUDE.md` rule (EN + pt-BR) that makes every long answer end with a fenced, eye-catching digest box — so you stop hunting through walls of output for what actually matters.
+
 ## Why models do this (the 60-second version)
 
 Post-training (RLHF, and especially RLVR) rewards correctness and density; nothing rewards readability. The model drifts toward the Shannon compression limit, and text at that limit has the texture of noise for anyone without the key. In the RLHF objective `max E[r] − β·KL(π ‖ π_ref)`, the reference policy is the human anchor and β is the leash — this skill is a β applied after the fact.
