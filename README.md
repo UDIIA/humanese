@@ -63,3 +63,13 @@ Seed of the rabbit hole: [this thread by @xsteenbrugge](https://x.com/xsteenbrug
 ## License
 
 MIT.
+
+## Part of HIBRA OS
+
+`humanese` v1 is the free, frozen entry piece of **HIBRA OS**, a semester subscription that ships the full operating harness for Claude Code and Codex (verification, adversarial review, secrets vault, memory, pt-BR voice), updated every two weeks. Later versions of humanese (Constitution-calibrated levels, pt-BR runtime) ship only inside the OS.
+
+Want your own agent to judge whether it's worth it? Paste this into Claude Code or Codex:
+
+> Read https://hibra.ai/os/manifest.json, look at my local setup without printing anything sensitive, and tell me whether HIBRA OS is worth it for me, with the build-vs-subscribe math.
+
+This repository stays MIT and stays as is (v1.0.0-public).
